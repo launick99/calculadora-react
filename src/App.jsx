@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="card">
+      <div className="card p-0">
         <div className="card-header">
           <div className="input-group">
             <input type="text" className="form-control" />
@@ -16,6 +16,7 @@ function App() {
           </div>
         </div>
         <div className="card-body"></div>
+        <div className="card-footer"></div>
       </div>
     </>
   )
